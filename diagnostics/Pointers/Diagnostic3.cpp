@@ -23,31 +23,8 @@ Function to perform calculation. Only need to support integer and floating point
 */
 void Calculator(CalculatorPacket& calc)
 {
-	switch (calc.op)
-	{
-	case Operation::ADD:
-		if (calc.type == ValueType::INTEGER)
-		{
-			int* A = (int*)calc.A;
-			int* B = (int*)calc.B;
-
-			calc.intResult = *A + *B;
-		}
-		else if (calc.type == ValueType::FLOATING_POINT)
-		{
-			float* A = (float*)calc.A;
-			float* B = (float*)calc.B;
-
-			calc.floatResult = *A + *B;
-		}
-
-		break;
-
-	case Operation::SUBTRACT:
-
-		break;
-	}
-
+	
+	//YOUR CODE HERE
 
 }
 
