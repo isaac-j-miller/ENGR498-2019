@@ -43,7 +43,7 @@ int main()
 
 	Calculator(integerAdd);
 
-	std::cout << "Result should be 7: " << integerAdd.intResult << std::endl;
+	std::cout << "Result should be 10: " << integerAdd.intResult << std::endl;
 
 	//construct a floating point packet to operate on
 	float floatA = 3.14159;
